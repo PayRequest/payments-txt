@@ -158,7 +158,7 @@ Full guide: [implementations/nodejs.md](implementations/nodejs.md)
 
 | Language | Status | Link |
 |---|---|---|
-| Laravel (PHP) | ✅ Reference | [implementations/laravel.md](implementations/laravel.md) |
+| PHP | ✅ Reference | [implementations/php.md](implementations/php.md) |
 | Node.js / Express | ✅ Example | [implementations/nodejs.md](implementations/nodejs.md) |
 | Python / FastAPI | 📋 Planned | — |
 | WordPress plugin | 📋 Planned | — |
