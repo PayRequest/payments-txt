@@ -1,0 +1,18 @@
+# PAYMENTS.TXT - Crypto-native (all chains)
+
+[meta]
+version = "1.0"
+status  = "active"
+
+[payment_terms]
+preferred_crypto = "USDC"
+
+[crypto_rails]
+supported_standards = ["EVM", "Solana", "Bitcoin"]
+primary_stablecoin  = "USDC"
+evm_address         = "0xYourEVMAddressHere"
+solana_address      = "YourSolanaAddressHere"
+btc_address         = "bc1qYourBitcoinAddressHere"
+
+[hosted_checkout]
+human_fallback_url = "https://payrequest.me/yourhandle"
