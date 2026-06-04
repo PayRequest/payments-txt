@@ -1,0 +1,26 @@
+# PAYMENTS.TXT - Freelancer profile
+# Accepts USDC on Base + SEPA bank transfer
+
+[meta]
+version                  = "1.0"
+status                   = "active"
+x402_discovery_url       = "https://api.payrequest.me/v1/x402/handle"
+x402_payment_endpoint    = "https://api.payrequest.me/v1/x402/handle/pay"
+
+[payment_terms]
+due_days                 = 14
+late_fee_percentage      = 2.0
+preferred_fiat           = "EUR"
+preferred_crypto         = "USDC"
+
+[crypto_rails]
+supported_standards      = ["EVM"]
+primary_stablecoin       = "USDC"
+evm_address              = "0xYourEVMAddressHere"
+
+[fiat_rails]
+sepa_iban                = "NL00BANK0123456789"
+sepa_bic                 = "BANKDEFFXXX"
+
+[hosted_checkout]
+human_fallback_url       = "https://payrequest.me/yourhandle"
