@@ -1,0 +1,11 @@
+# PAYMENTS.TXT - Minimal crypto-only setup
+
+[meta]
+version = "1.0"
+status  = "active"
+
+[crypto_rails]
+evm_address = "0xYourEVMAddressHere"
+
+[hosted_checkout]
+human_fallback_url = "https://yoursite.com/pay"
