@@ -1,0 +1,28 @@
+# PAYMENTS.TXT - Full business profile
+
+[meta]
+version                  = "1.0"
+status                   = "active"
+x402_discovery_url       = "https://api.example.com/v1/x402/handle"
+x402_payment_endpoint    = "https://api.example.com/v1/x402/handle/pay"
+
+[payment_terms]
+due_days                 = 30
+late_fee_percentage      = 1.5
+preferred_fiat           = "USD"
+preferred_crypto         = "USDC"
+
+[crypto_rails]
+supported_standards      = ["EVM", "Solana"]
+primary_stablecoin       = "USDC"
+evm_address              = "0xYourEVMAddressHere"
+solana_address           = "YourSolanaAddressHere"
+
+[fiat_rails]
+sepa_iban                = "DE89370400440532013000"
+sepa_bic                 = "COBADEFFXXX"
+ach_routing              = "021000021"
+ach_account              = "000123456789"
+
+[hosted_checkout]
+human_fallback_url       = "https://pay.example.com"
